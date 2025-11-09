@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Ensure the baseURL is correct for local development
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://linkedin-clone-backend-i9og.onrender.com/api' });
 
 // Add logs to the interceptor to trace the request
 API.interceptors.request.use((req) => {
