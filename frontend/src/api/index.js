@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' }); // Use your backend URL in production
+const API = axios.create({ baseURL: 'https://linkedin-clone-backend-i9og.onrender.com/api' }); // Use your backend URL in production
 
 // This function will run before every request to attach the token
 API.interceptors.request.use((req) => {
